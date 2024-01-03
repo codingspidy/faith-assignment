@@ -124,7 +124,7 @@ export default function Home() {
         className="py-20"
       >
         <div className="innerDiv ">
-          <div className="max-w-[1000px]">
+          <div className="max-w-[1050px]">
             <h4 className="font-serif text-[24px] font-semibold">About the Instructor</h4>
             <div className="flex flex-col lg:flex-row mt-5">
               <Image src={instructorImg} alt="Course Instructor" className="rounded-full w-[120px] h-[120px] lg:w-[150px] lg:h-[150px] mr-5" />
@@ -133,7 +133,7 @@ export default function Home() {
                   <p className="w-full lg:w-1/2">Lorem ipsum, dolor sit amet consectetiis quas, libero nesciunt eum. Accusantium doloribus distinctio blanditiis, praesentium hic magnam error vitae possimus illo recusandae earum est voluptate amet nisi reprehenderit porro, ex fugit, neque aliquam fugiat?</p>
                   <p className="w-full lg:w-1/2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. tur adipisicing elit. Labore voluptatem repellat blandi Hic inventore nemo accusamus quas, quibusdam ut perferendis dolores, velit quam quia molestiae dolorem ab quisquam ipsam sit, dolorum alias incidunt. Earum quaerat voluptas beatae ipsam debitis! Omnis, provident. Tenetur quos dicta aperiam veritatis possimus ullam expedita.</p>
                 </div>
-                <div className="socials flex items-center gap-y-4 justify-between flex-wrap mt-6">
+                <div className="socials flex items-center gap-y-4 justify-between flex-wrap mt-5">
                   <a href="#" className="flex items-center gap-x-2 text-[15px]">
                     <Image src={facebookIcon} alt="Facebook Icon" className="w-[18px] h-[18px]" />
                     Facebook

@@ -135,8 +135,8 @@ footer {
 
 .swiper-button-prev,
 .swiper-button-next {
-  display: none;
-  background: #aeaeae;
+  display: none !important;
+  background: #c4c4c4 !important;
   height: 35px !important;
   width: 35px !important;
   border-radius: 50%;
@@ -167,12 +167,12 @@ footer {
 }
 
 .swiper-pagination-bullet {
-  background-color: #888888 !important;
+  background-color: #818181 !important;
   margin-inline: 3px !important;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #707070 !important;
+  background-color: #999999 !important;
   width: 30px !important;
   border-radius: 20px !important;
 }

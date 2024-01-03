@@ -19,8 +19,8 @@ export default function Home() {
           <div className="w-full h-[450px] relative bg-gradient-to-r from-slate-900/75 to-transparent">
             <div className="innerDiv h-full flex items-end justify-start">
               <div className=" pb-12">
-                <h3 className="text-sm font-medium">NITYANAND CHARAN DAS</h3>
-                <h4 className="text-[30px] leading-[1.2] font-semibold mt-2 max-w-[420px] font-serif">Learn key life lessons from the Gita: Mind control and conflict resolution</h4>
+                <h3 className="text-[15px] font-medium">NITYANAND CHARAN DAS</h3>
+                <h4 className="text-[30px] leading-[1.2] font-semibold mt-2 max-w-[490px] font-serif">Learn key life lessons from the Gita: Mind control and conflict resolution</h4>
               </div>
             </div>
 
@@ -30,7 +30,7 @@ export default function Home() {
         <TabbedNav />
         <div className="innerDiv">
           <div className="flex gap-x-4">
-            <div className="w-[60%]">
+            <div className="w-full lg:w-[60%]">
               <div>
                 <h4 className="font-serif text-[24px] font-semibold mt-7">About the course</h4>
                 <p className="mt-5">Lorem ipsum text about managing relationships, communication, time management, and forgiveness. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores distinctio voluptatum sit alias, quos laborum porro! Ea, eveniet dolores nesciunt saepe ipsum porro consequatur?</p>
@@ -78,33 +78,42 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div className="relative">
+            <div className="hidden lg:block">
               <div className="shadow-sm px-[22px] py-5 bg-[#f7f0ff] sticky z-20 top-20 -translate-y-20">
                 <div>
                   <h6 className="text-[18px]">Course fees</h6>
                   <p className="text-[36px] font-semibold leading-none font-serif">&#8377;5,000</p>
                 </div>
-                <h6 className="text-[18px] mt-6">What&#39;s included:</h6>
-                <ul className="text-[14px] mt-1 space-y-1">
-                  <li className="flex items-center">
-                    <Image src={videoIcon} alt="Tick Icon" className="w-[15px] h-[15px] mr-4" />
-                    <span>5 on-demand videos</span>
-                  </li>
-                  <li className="flex items-center">
-                    <Image src={videoIcon} alt="Tick Icon" className="w-[15px] h-[15px] mr-4" />
-                    <span>2 livestream sessions</span>
-                  </li>
-                  <li className="flex items-center">
-                    <Image src={messageIcon} alt="Tick Icon" className="w-[15px] h-[15px] mr-4" />
-                    <span>Live Q&A sessions with Nityanand Charan Das</span>
-                  </li>
-                  <li className="flex items-center">
-                    <Image src={messageIcon} alt="Tick Icon" className="w-[15px] h-[15px] mr-4" />
-                    <span>An active Whatsapp community</span>
-                  </li>
-                </ul>
+                <div className="mt-6 hidden lg:block">
+                  <h6 className="text-[18px]">What&#39;s included:</h6>
+                  <ul className="text-[14px] mt-1 space-y-1">
+                    <li className="flex items-center">
+                      <Image src={videoIcon} alt="Tick Icon" className="w-[15px] h-[15px] mr-4" />
+                      <span>5 on-demand videos</span>
+                    </li>
+                    <li className="flex items-center">
+                      <Image src={videoIcon} alt="Tick Icon" className="w-[15px] h-[15px] mr-4" />
+                      <span>2 livestream sessions</span>
+                    </li>
+                    <li className="flex items-center">
+                      <Image src={messageIcon} alt="Tick Icon" className="w-[15px] h-[15px] mr-4" />
+                      <span>Live Q&A sessions with Nityanand Charan Das</span>
+                    </li>
+                    <li className="flex items-center">
+                      <Image src={messageIcon} alt="Tick Icon" className="w-[15px] h-[15px] mr-4" />
+                      <span>An active Whatsapp community</span>
+                    </li>
+                  </ul>
+                </div>
                 <button className="text-center bg-purple-700 py-2 w-full mt-7 rounded-full text-white">Register today</button>
               </div>
+            </div>
+            <div className="shadow-sm flex gap-3 items-center w-full px-[22px] pb-[16px] pt-3 bg-[#f7f0ff] fixed -bottom-1 left-0 z-20 lg:hidden">
+              <div>
+                <h6 className="text-[12px]">Course fees</h6>
+                <p className="text-[24px] font-semibold leading-none font-serif">&#8377;5,000</p>
+              </div>
+              <button className="text-center bg-purple-700 py-2 w-full rounded-none text-white">Register today</button>
             </div>
           </div>
         </div>
@@ -117,14 +126,14 @@ export default function Home() {
         <div className="innerDiv ">
           <div>
             <h4 className="font-serif text-[24px] font-semibold">About the Instructor</h4>
-            <div className="flex mt-5">
-              <Image src={instructorImg} alt="Course Instructor" className="rounded-full w-[150px] h-[150px] mr-5" />
+            <div className="flex flex-col lg:flex-row mt-5">
+              <Image src={instructorImg} alt="Course Instructor" className="rounded-full w-[120px] h-[120px] lg:w-[150px] lg:h-[150px] mr-5" />
               <div>
-                <div className="flex gap-x-4">
+                <div className="flex flex-col lg:flex-row gap-4 mt-3 lg:mt-0">
                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore voluptatem repellat blanditiis quas, libero nesciunt eum. Accusantium doloribus distinctio blanditiis, praesentium hic magnam error vitae possimus illo recusandae earum est voluptate amet nisi reprehenderit porro, ex fugit, neque aliquam fugiat?</p>
                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic inventore nemo accusamus quas, quibusdam ut perferendis dolores, velit quam quia molestiae dolorem ab quisquam ipsam sit, dolorum alias incidunt. Earum quaerat voluptas beatae ipsam debitis! Omnis, provident. Tenetur quos dicta aperiam veritatis possimus ullam expedita.</p>
                 </div>
-                <div className="socials flex items-center justify-between mt-5">
+                <div className="socials flex items-center gap-y-4 flex-wrap justify-between mt-5">
                   <a href="#" className="flex items-center gap-x-2 text-[15px]">
                     <Image src={facebookIcon} alt="Facebook Icon" className="w-[18px] h-[18px]" />
                     Facebook

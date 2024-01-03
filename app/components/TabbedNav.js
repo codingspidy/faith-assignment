@@ -33,7 +33,7 @@ const TabbedNav = () => {
                     <div className="flex items-center">
                         <LinkScroll
                             to="about"
-                            className="border-b-2 border-transparent px-12 pb-[15px] pt-[15px] uppercase cursor-pointer text-xs md:text-[15px] font-medium"
+                            className="border-b-2 border-transparent px-6 lg:px-12 pb-[15px] pt-[15px] uppercase cursor-pointer text-xs md:text-[15px] font-medium"
                             smooth={true}
                             offset={-200}
                             duration={500}
@@ -42,7 +42,7 @@ const TabbedNav = () => {
                             About
                         </LinkScroll>
                         <LinkScroll
-                            className="border-b-2 border-transparent px-12 pb-[15px] pt-[15px] uppercase cursor-pointer text-xs md:text-[15px] font-medium"
+                            className="border-b-2 border-transparent px-6 lg:px-12 pb-[15px] pt-[15px] uppercase cursor-pointer text-xs md:text-[15px] font-medium"
                             to="instructor"
                             smooth={true}
                             offset={-200}
@@ -52,7 +52,7 @@ const TabbedNav = () => {
                             Instructor
                         </LinkScroll>
                         <LinkScroll
-                            className="border-b-2 border-transparent px-12 pb-[15px] pt-[15px] uppercase cursor-pointer text-xs md:text-[15px] font-medium"
+                            className="border-b-2 border-transparent px-6 lg:px-12 pb-[15px] pt-[15px] uppercase cursor-pointer text-xs md:text-[15px] font-medium"
                             to="review"
                             smooth={true}
                             offset={-200}

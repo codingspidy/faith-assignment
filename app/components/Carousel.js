@@ -45,8 +45,8 @@ const Carousel = () => {
     >
       {reviews.map((review) => (
         <SwiperSlide key={review.id}>
-          <div className="review-card flex flex-col items-center px-[160px] py-20 text-center">
-            <p className="review-text text-[30px] font-semibold leading-[1.4] font-serif">{review.text}</p>
+          <div className="review-card flex flex-col items-center lg:px-[160px] py-20 text-center">
+            <p className="review-text text-[24px] lg:text-[30px] font-semibold leading-[1.4] font-serif">{review.text}</p>
             <div className='flex items-center gap-x-4 mt-8'>
               <Image src={userImg} alt="Reviewer Image" className='rounded-full w-9 h-9 object-cover' />
               <div className='flex flex-col text-[13px]'>

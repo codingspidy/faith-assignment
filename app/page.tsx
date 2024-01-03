@@ -84,7 +84,7 @@ export default function Home() {
                   <h6 className="text-[18px]">Course fees</h6>
                   <p className="text-[36px] font-semibold leading-none font-serif">&#8377;5,000</p>
                 </div>
-                <h6 className="text-[18px] mt-6">What's included:</h6>
+                <h6 className="text-[18px] mt-6">What&#39;s included:</h6>
                 <ul className="text-[14px] mt-1 space-y-1">
                   <li className="flex items-center">
                     <Image src={videoIcon} alt="Tick Icon" className="w-[15px] h-[15px] mr-4" />

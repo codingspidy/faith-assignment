@@ -81,11 +81,11 @@ export default function Home() {
             <div className="hidden lg:block">
               <div className="shadow-sm px-[22px] py-5 bg-[#f7f0ff] sticky z-20 top-20 -translate-y-20">
                 <div>
-                  <h6 className="text-[18px]">Course fees</h6>
+                  <h6 className="text-[18px] font-medium">Course fees</h6>
                   <p className="text-[36px] font-semibold leading-none font-serif">&#8377;5,000</p>
                 </div>
                 <div className="mt-6 hidden lg:block">
-                  <h6 className="text-[18px]">What&#39;s included:</h6>
+                  <h6 className="text-[17px] font-medium">What&#39;s included:</h6>
                   <ul className="text-[14px] mt-1 space-y-1">
                     <li className="flex items-center">
                       <Image src={videoIcon} alt="Tick Icon" className="w-[15px] h-[15px] mr-4" />
@@ -105,7 +105,7 @@ export default function Home() {
                     </li>
                   </ul>
                 </div>
-                <button className="text-center bg-purple-700 py-2 w-full mt-7 rounded-full text-white">Register today</button>
+                <button className="text-center bg-purple-700 py-[10px] text-[18px] w-full mt-7 rounded-full text-white">Register today</button>
               </div>
             </div>
             <div className="shadow-sm flex gap-3 items-center w-full px-[22px] pb-[16px] pt-3 bg-[#f7f0ff] fixed -bottom-1 left-0 z-20 lg:hidden">
@@ -124,16 +124,16 @@ export default function Home() {
         className="py-20"
       >
         <div className="innerDiv ">
-          <div>
+          <div className="max-w-[1000px]">
             <h4 className="font-serif text-[24px] font-semibold">About the Instructor</h4>
             <div className="flex flex-col lg:flex-row mt-5">
               <Image src={instructorImg} alt="Course Instructor" className="rounded-full w-[120px] h-[120px] lg:w-[150px] lg:h-[150px] mr-5" />
               <div>
                 <div className="flex flex-col lg:flex-row gap-4 mt-3 lg:mt-0">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore voluptatem repellat blanditiis quas, libero nesciunt eum. Accusantium doloribus distinctio blanditiis, praesentium hic magnam error vitae possimus illo recusandae earum est voluptate amet nisi reprehenderit porro, ex fugit, neque aliquam fugiat?</p>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic inventore nemo accusamus quas, quibusdam ut perferendis dolores, velit quam quia molestiae dolorem ab quisquam ipsam sit, dolorum alias incidunt. Earum quaerat voluptas beatae ipsam debitis! Omnis, provident. Tenetur quos dicta aperiam veritatis possimus ullam expedita.</p>
+                  <p className="w-full lg:w-1/2">Lorem ipsum, dolor sit amet consectetiis quas, libero nesciunt eum. Accusantium doloribus distinctio blanditiis, praesentium hic magnam error vitae possimus illo recusandae earum est voluptate amet nisi reprehenderit porro, ex fugit, neque aliquam fugiat?</p>
+                  <p className="w-full lg:w-1/2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. tur adipisicing elit. Labore voluptatem repellat blandi Hic inventore nemo accusamus quas, quibusdam ut perferendis dolores, velit quam quia molestiae dolorem ab quisquam ipsam sit, dolorum alias incidunt. Earum quaerat voluptas beatae ipsam debitis! Omnis, provident. Tenetur quos dicta aperiam veritatis possimus ullam expedita.</p>
                 </div>
-                <div className="socials flex items-center gap-y-4 flex-wrap justify-between mt-5">
+                <div className="socials flex items-center gap-y-4 justify-between flex-wrap mt-6">
                   <a href="#" className="flex items-center gap-x-2 text-[15px]">
                     <Image src={facebookIcon} alt="Facebook Icon" className="w-[18px] h-[18px]" />
                     Facebook

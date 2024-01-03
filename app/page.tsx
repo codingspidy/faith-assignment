@@ -69,7 +69,7 @@ export default function Home() {
                   </li>
                   <li className="flex">
                     <Image src={tickIcon} alt="Tick Icon" className="w-[14px] h-[14px] mr-6" />
-                    <p className="-mt-1"><span className="font-semibold">A Handy reference</span> to numerical meanings, so you can uncover your soul's gifts, challenges, lessons, and purpose – and receive spiritual guidance along your path.</p>
+                    <p className="-mt-1"><span className="font-semibold">A Handy reference</span> to numerical meanings, so you can uncover your soul&#39;s gifts, challenges, lessons, and purpose – and receive spiritual guidance along your path.</p>
                   </li>
                   <li className="flex">
                     <Image src={tickIcon} alt="Tick Icon" className="w-[14px] h-[14px] mr-6" />

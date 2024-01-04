@@ -150,8 +150,8 @@ footer {
 
 @media (min-width: 1024px) {
   .swiper-button-prev,
-  .campaign-slider .swiper-button-next {
-    display: block !important;
+  .swiper-button-next {
+    display: flex !important;
   }
 }
 
